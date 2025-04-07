@@ -1,0 +1,17 @@
+pip install qiskit qiskit-aer qiskit-optimization
+pip install qiskit-nature
+
+from qiskit_optimization import QuadraticProgram
+from qiskit_optimization.algorithms import MinimumEigenOptimizer
+import networkx as nx
+import numpy as np
+
+pip install 'qiskit-optimization[cplex]'
+pip install gurobipy
+pip install --upgrade qiskit qiskit-optimization qiskit-aer
+!pip install qiskit qiskit-aer --quiet
+
+from qiskit_aer import Aer  # Import Aer from qiskit_aer
+from qiskit import QuantumCircuit, transpile, assemble
+from qiskit.visualization import plot_histogram
+
